@@ -1,4 +1,3 @@
-from lxml import html
 import configparser, re, os, requests, zipfile
 
 LATEST_VERSION_RE = re.compile(r'The latest version of this addon is <b class="VIP">([0-9]+.[0-9]+)</b>')
